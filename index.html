@@ -1,72 +1,74 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>🩷</title>
-<style>
-  body {
-    background-color: #001f3f;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-  }
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Te Amo ❤️</title>
+        <style>
+            body {
+                  background-color: #001f3f; /* azul escuro */
+                        display: flex;
+                              justify-content: center;
+                                    align-items: center;
+                                          height: 100vh;
+                                                margin: 0;
+                                                      font-family: "Poppins", sans-serif;
+                                                          }
 
-  .heart {
-    position: relative;
-    width: 200px;
-    height: 180px;
-    background-color: #ff0000;
-    transform: rotate(-45deg);
-    animation: pulse 1.5s infinite;
-  }
+                                                              .heart {
+                                                                    position: relative;
+                                                                          width: 250px;
+                                                                                height: 220px;
+                                                                                      background-color: red;
+                                                                                            transform: rotate(-45deg);
+                                                                                                  animation: pulse 1.2s infinite;
+                                                                                                      }
 
-  .heart::before,
-  .heart::after {
-    content: "";
-    position: absolute;
-    width: 200px;
-    height: 180px;
-    background-color: #ff0000;
-    border-radius: 50%;
-  }
+                                                                                                          .heart::before,
+                                                                                                              .heart::after {
+                                                                                                                    content: "";
+                                                                                                                          position: absolute;
+                                                                                                                                width: 250px;
+                                                                                                                                      height: 220px;
+                                                                                                                                            background-color: red;
+                                                                                                                                                  border-radius: 50%;
+                                                                                                                                                      }
 
-  .heart::before {
-    top: -100px;
-    left: 0;
-  }
+                                                                                                                                                          .heart::before {
+                                                                                                                                                                top: -125px;
+                                                                                                                                                                      left: 0;
+                                                                                                                                                                          }
 
-  .heart::after {
-    left: 100px;
-    top: 0;
-  }
+                                                                                                                                                                              .heart::after {
+                                                                                                                                                                                    left: 125px;
+                                                                                                                                                                                          top: 0;
+                                                                                                                                                                                              }
 
-  @keyframes pulse {
-    0% { transform: scale(1) rotate(-45deg); }
-    50% { transform: scale(1.1) rotate(-45deg); }
-    100% { transform: scale(1) rotate(-45deg); }
-  }
+                                                                                                                                                                                                  .text {
+                                                                                                                                                                                                        position: absolute;
+                                                                                                                                                                                                              top: 50%;
+                                                                                                                                                                                                                    left: 50%;
+                                                                                                                                                                                                                          transform: translate(-50%, -50%) rotate(45deg);
+                                                                                                                                                                                                                                color: white;
+                                                                                                                                                                                                                                      text-align: center;
+                                                                                                                                                                                                                                            font-size: 1.2rem;
+                                                                                                                                                                                                                                                  font-weight: bold;
+                                                                                                                                                                                                                                                        width: 180px;
+                                                                                                                                                                                                                                                              line-height: 1.4;
+                                                                                                                                                                                                                                                                  }
 
-  .text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotate(45deg);
-    color: white;
-    font-family: Arial, sans-serif;
-    font-size: 20px;
-    text-align: center;
-    width: 180px;
-  }
-</style>
-</head>
-<body>
-  <div class="heart">
-    <div class="text">
-      EU TE AMO MUITO<br>MEU AMOR ❤️<br>QUER CASAR COMIGO 😍?
-    </div>
-  </div>
-</body>
-</html>
+                                                                                                                                                                                                                                                                      @keyframes pulse {
+                                                                                                                                                                                                                                                                            0% { transform: rotate(-45deg) scale(1); }
+                                                                                                                                                                                                                                                                                  50% { transform: rotate(-45deg) scale(1.1); }
+                                                                                                                                                                                                                                                                                        100% { transform: rotate(-45deg) scale(1); }
+                                                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                                                              </style>
+                                                                                                                                                                                                                                                                                              </head>
+                                                                                                                                                                                                                                                                                              <body>
+                                                                                                                                                                                                                                                                                                <div class="heart">
+                                                                                                                                                                                                                                                                                                    <div class="text">
+                                                                                                                                                                                                                                                                                                          EU TE AMO MUITO<br>MEU AMOR<br>QUER CASAR COMIGO 😍?
+                                                                                                                                                                                                                                                                                                              </div>
+                                                                                                                                                                                                                                                                                                                </div>
+                                                                                                                                                                                                                                                                                                                </body>
+                                                                                                                                                                                                                                                                                                                </html>
